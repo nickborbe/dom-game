@@ -5,8 +5,6 @@ const pikaURL = '<img src="pika.gif">';
 
 
 function pikaMove() {
-
-  // Move the paragraph from #myDiv1 to #myDiv2
    $('.'+stringGrid).html(pikaURL);
  
 } 
@@ -55,15 +53,5 @@ document.onkeydown = function(e){
       }
       break;
   }
-
-
-
-    // $('#pika').append(('span.r1c.r1c2'));
-    // console.log('hi');
-
-    // // let directions = ["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown"];
-    // if(directions.includes(e.key)){
-    //   theCar.moveYourSelf(e.key)
-    // }
   }
 
